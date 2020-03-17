@@ -1,10 +1,10 @@
 package main
 
 import (
-	"GoStudy/ch02/tempconv"
 	"fmt"
 	"os"
 	"strconv"
+	"study/ch02/tempconv"
 )
 
 // $ go run cf.go 123

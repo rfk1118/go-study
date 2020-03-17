@@ -22,4 +22,12 @@ func main() {
 	//[32]uint8
 
 	fmt.Printf("%x\n%x\n%t\n%T\n", c1, c2, c1 == c2, c1)
+
+	s := "hello world"
+
+	s2 := s[0:2]
+
+	fmt.Println(&s)
+
+	fmt.Println(&s2)
 }
